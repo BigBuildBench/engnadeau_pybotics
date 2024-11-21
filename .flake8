@@ -1,0 +1,16 @@
+[flake8]
+count = True
+verbose = 1
+exclude =
+    docs,
+    build,
+    .tox,
+    __pycache__,
+    .eggs
+show-source = True
+statistics = True
+max-complexity = 10
+import-order-style = pep8
+application-import-names = pybotics
+max-line-length = 88
+extend-ignore = E203,E741
